@@ -1,0 +1,19 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:md": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:txt": "textlint '**/*.md'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "lefthook": "^2.1.5",
+    "markdownlint-cli": "^0.48.0",
+    "textlint": "^15.5.4"
+  }
+}
