@@ -15,5 +15,8 @@
     "lefthook": "^2.1.5",
     "markdownlint-cli": "^0.48.0",
     "textlint": "^15.5.4"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.5.1"
   }
 }

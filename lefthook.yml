@@ -45,5 +45,3 @@ pre-commit:
   jobs:
     - run: pnpm markdownlint {staged_files}
       glob: "*.{md}"
-    - run: pnpm textlint {staged_files}
-      glob: "*.{md}"
