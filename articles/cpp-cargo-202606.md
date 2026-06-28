@@ -3,7 +3,7 @@ title: "CMakeが嫌なのでC/C++版Cargoを作っている話"
 emoji: "🐥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["c", "cpp", "cargo", "個人開発", "cmake"]
-published: false
+published: true
 ---
 
 ## TL;DR
@@ -28,6 +28,8 @@ AIを用いて爆速開発しているため、実装に抜けが結構あると
 
 GitHub:
 <https://github.com/narusenia/ordo>
+Document:
+<https://narusenia.github.io/ordo-docs/>
 
 ---
 
@@ -450,11 +452,5 @@ ordo run
 フィードバック・Issue・PRは大歓迎です。
 
 - GitHub: <https://github.com/narusenia/ordo>
+- Document: <https://narusenia.github.io/ordo-docs/>
 - License: MIT / Apache-2.0
-
-<!-- TODO:
-  - 「動機」セクションに自分の体験談を入れる（プレースホルダー箇所）
-  - 比較表の記述を自分の言葉で調整
-  - スクリーンショットやGIFを追加（ordo build の出力、raylibウィンドウ）
-  - Meson/xmake/CMakeを「試した」ときの具体的なエピソード
--->
